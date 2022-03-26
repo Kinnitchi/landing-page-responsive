@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentos - FlexBox</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Flex Turismo</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="shortcut icon" href="src/img/icon-aviao.jpg" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <div class="flex-container menu">
-            <div><h1>FlexTurismos</h1></div>
+            <div>
+                <h1>Flex<br>Turismos</h1>
+            </div>
             <ul class="list-itens">
                 <li><a href="#quem-somos">Quem Somos</a></li>
                 <li><a href="#services">Serviços</a></li>
@@ -25,52 +30,59 @@
             <a href="" class="btn">Saiba Mais!</a>
         </div>
         <div>
-            <div><img src="assets/img/0-main.png" alt="banner de apresentação"></div>
+            <div>
+                <img src="src/img/0-main.png" alt="banner de apresentação">
+            </div>
         </div>
     </div>
-        <div class="flex-container" id="quem-somos">
-            <div>
-                <h2>Quem somos</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-            </div>
-            <div>
-                <img src="assets/img/1-quem-somos.png" alt="balcão de atendimento">
-            </div>
+    <div class="flex-container" id="quem-somos">
+        <div>
+            <h2>Quem somos</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. </p>
+            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+                to using 'Content here, content here', making it look like readable English.</p>
         </div>
+        <div>
+            <img src="src/img/1-quem-somos.png" alt="balcão de atendimento">
+        </div>
+    </div>
     <div class="container-externo">
         <div class="flex-container" id="services">
+
             <div>
                 <h2>Serviços</h2>
             </div>
 
-                <div class="list-services">
-                    <div class="iten-service">
-                        <div><img src="assets/img/icon-2.png" alt="hospedagens"></div>
-                        <p>Hospedagens</p>
-                        <a href="#">Comprar Agora</a>
-                    </div>
+            <div class="list-services">
+                <div class="iten-service">
+                    <div><img src="src/img/icon-2.png" alt="hospedagens"></div>
+                    <p>Hospedagens</p>
+                    <a href="#">Comprar Agora</a>
+                </div>
 
-                    <div class="iten-service">
-                        <div><img src="assets/img/icon-1.png" alt="pacote de viagens"></div>
-                        <p>Pacotes de viagens</p>
-                        <a href="#">Comprar Agora</a>
-                    </div>
+                <div class="iten-service">
+                    <div><img src="src/img/icon-1.png" alt="pacote de viagens"></div>
+                    <p>Pacotes de viagens</p>
+                    <a href="#">Comprar Agora</a>
+                </div>
 
-                    <div class="iten-service">
-                        <div><img src="assets/img/icon-3.png" alt="roteiros personalizados"></div>
-                        <p>Roteiros personalizados</p>
-                        <a href="#">Comprar Agora</a>
-                    </div>
+                <div class="iten-service">
+                    <div><img src="src/img/icon-3.png" alt="roteiros personalizados"></div>
+                    <p>Passeios personalizados</p>
+                    <a href="#">Comprar Agora</a>
                 </div>
             </div>
         </div>
+    </div>
 
     <div class="flex-container" id="plans">
 
-        <div><h2>Planos</h2></div>
+        <div>
+            <h2>Planos</h2>
+        </div>
 
-        <div class="list-plans">    
+        <div class="list-plans">
             <div class="itens-plans">
                 <h3>Plano 1</h3>
                 <ul>
@@ -94,7 +106,7 @@
                 <a href="#" class="btn">Saiba Mais!</a>
             </div>
 
-            <div class="itens-plans"> 
+            <div class="itens-plans">
                 <h3>Plano 3</h3>
                 <br>
                 <ul>
@@ -107,15 +119,17 @@
                 </ul>
                 <a href="#" class="btn">Saiba Mais!</a>
             </div>
-
         </div>
     </div>
 
     <footer>
         <div class="flex-container footer">
             <p>&copy; 2022 CSS Flexbox</p>
-            <p>Desenvolvido por: Igor Vieira <b>(Kinnitchi)</b></p>
-        </div>      
+            <p>Desenvolvido por: Igor Vieira
+                <b><a style="color: #ffffff;" href="https://github.com/Kinnitchi">(Kinnitchi)</a></b>
+            </p>
+        </div>
     </footer>
 </body>
+
 </html>
